@@ -11,7 +11,12 @@ A backend system for managing customers, users, and interactions, built using No
 
 ## **Base URL**
 
-The base URL for accessing the API:
+The base URL for accessing the API:https://wisdom-peak-backend-36s1.onrender.com
+
+## **API DOC**
+
+Doc-Link :[CRM_API_Documentation.pdf](https://github.com/user-attachments/files/18524499/CRM_API_Documentation.pdf)
+
 
 
 Replace `wisdom-serice` with the actual name of your Heroku app or your server's domain/IP.
@@ -152,29 +157,11 @@ Swagger API Documentation
 You can view the Swagger API documentation at the following URL:
 
 
-https://your-app-name.herokuapp.com/api-docs
+https://wisdom-peak-backend-36s1.onrender.com/api-docs
 The Swagger UI provides interactive API documentation, allowing you to explore all available endpoints, test them, and view request/response examples.
 
 Environment Variables
 Make sure to configure the following environment variables on your server or in your .env file:
 
 PORT: The port on which the server runs (default: 3000).
-DATABASE_URL: The path or connection string for your database (if you're using SQLite or any other database).
-How to Deploy
-Deploy to Heroku:
-
-Create a Heroku account and log in via the Heroku CLI.
-Push the project to Heroku using Git.
-
-
-git init
-git add .
-git commit -m "Initial commit"
-heroku create
-git push heroku master
-Set Environment Variables:
-
-Use Heroku CLI to configure environment variables:
-heroku config:set DATABASE_URL="your-database-url"
-heroku config:set PORT=3000
-Access the API: Once deployed, the app will be available at https://your-app-name.herokuapp.com.
+DATABASE_URL:https://wisdom-peak-backend-36s1.onrender.com
